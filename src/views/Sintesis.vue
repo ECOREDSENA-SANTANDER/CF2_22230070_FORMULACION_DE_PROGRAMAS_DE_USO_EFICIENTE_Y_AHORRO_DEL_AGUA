@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. 
-    
+   
+    p La proyección del Programa para el Uso Eficiente y Ahorro del Agua (PUEAA) permite establecer una ruta organizada para la gestión responsable y sostenible del recurso hídrico. Para ello, se abordan los objetivos del programa, la construcción de metas e indicadores que facilitan el seguimiento de los resultados, así como la identificación de soluciones y tecnologías orientadas a optimizar el consumo y reducir las pérdidas de agua. Además, se desarrolla un plan de acción que integra actividades, responsables, recursos y mecanismos de seguimiento, teniendo en cuenta el régimen de los servicios públicos domiciliarios y las disposiciones aplicables a la gestión del recurso hídrico.    
 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.p-4
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="El PUEAA establece una ruta para la gestión responsable y sostenible del agua, mediante objetivos, metas e indicadores. Además, integra soluciones, tecnologías y acciones para optimizar el consumo, reducir pérdidas y realizar seguimiento.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
