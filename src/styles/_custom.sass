@@ -102,11 +102,34 @@ figcaption
   background-position: bottom
   margin-inline: -3.3rem
 .bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+  &-3
+    background-image: url(../assets/curso/temas/bg/3.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom
+  &-4
+    background-image: url(../assets/curso/temas/bg/4.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom
+  &-5
+    background-image: url(../assets/curso/temas/bg/5.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom
 .bg-color
   &-1
     background-color: #8DF1A8
+  &-2
+    background-color: #D2E1F1
+  &-3
+    background-color: #F1FBFF
+  &-4
+    background-color: #9CB4E2
+  &-5
+    background-color: #C8F0FF
+  &-6
+    background-color: #F3F9FF
 .bgcompl
   &-1
     background: url(../assets/curso/temas/bg/6.png)
@@ -119,7 +142,20 @@ figcaption
     @media screen and (max-width: 767px)
       margin-inline: -1.4rem  
       background-size: cover   
+  &-2
+    background: #FFF9EB
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    margin-inline: -3.4rem
+    @media screen and (max-width: 992px)
+      margin-inline: -3rem  
+      background-size: cover 
+    @media screen and (max-width: 767px)
+      margin-inline: -1.4rem  
+      background-size: cover  
 
+.w-80x
+  width: 80px
 .subt
   display: flex
   align-items: center
@@ -144,7 +180,76 @@ figcaption
       padding-bottom: 1px
     &::before
       height: 96%
+.subt2
+  display: flex
+  align-items: center
+  position: relative  
+  width: fit-content  
+  img
+    width: 15px
+    z-index: 1
+    margin-left: 10px
+    padding-bottom: 7px
+  h4 
+    z-index: 1
+    padding-bottom: 7px
+  &::before
+    content: ''
+    position: absolute
+    background-color: #77D9FE
+    border-radius: 100px
+    width: 100%
+    height: 5px
+    left: 0px
+    bottom: 0px
+    z-index: 0
+.tabla-a 
+  &.color-primario
+    thead
+      background-color: $color-acento-contenido
+      th
+        text-align: left
+.tarjeta-numerada.color-adicional-1
+  border-color: $color-adicional-1
+  .tarjeta-numerada__numero
+    background-color: $color-adicional-1
+.l-circle i.fa-circle
+  font-size: 6px
+  top: 10px !important
+.tabs-c.color-acento-botones 
+  .tabs-c__tab--active
+    font-weight: bold
+    background-color: $white !important
+  .tabs-c__tab
+    background-color: #9CB4E2
+    border-bottom-color: #0944B7
+.linea-tiempo-c__header
+  &__btn--left, &__btn--right
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+.pasos-a .text-end
+  text-align: left !important
 
+
+.tarj-esp
+  border: 1px solid #B0C0D2
+  border-radius: 25px
+  display: flex
+  justify-content: center
+  align-items: center
+  span
+    font-weight: bold
+    font-size: 25px
+    padding: 0px 5px
+    &.plus
+      color: $color-adicional-1
+      font-weight: bold
+      font-size: 60px
+  @media (max-width: $bp-max-xs)
+    span 
+      font-size: 20px
+      &.plus
+        font-size: 40px
 
 
 
