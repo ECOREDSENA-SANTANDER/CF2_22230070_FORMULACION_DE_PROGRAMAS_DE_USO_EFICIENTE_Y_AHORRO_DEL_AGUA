@@ -1,5 +1,4 @@
 @use 'variables' as *
-
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
@@ -92,7 +91,8 @@ figcaption
 .l-circle i.fa-circle
   font-size: 6px
   top: 10px !important
-  
+.slyder-f__btn i
+  color: $color-acento-botones
 
 .p-full-width
   padding: 3rem 3.5rem !important
@@ -102,6 +102,16 @@ figcaption
   background-position: bottom
   margin-inline: -3.3rem
 .bg-fondo
+  &-1
+    background-image: url(../assets/curso/temas/bg/1.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom
+  &-2
+    background-image: url(../assets/curso/temas/bg/2.png)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: bottom
   &-3
     background-image: url(../assets/curso/temas/bg/3.png)
     background-size: cover
@@ -130,6 +140,14 @@ figcaption
     background-color: #C8F0FF
   &-6
     background-color: #F3F9FF
+  &-7
+    background-color: #E5ECF8
+  &-8
+    background-color: #FFE7B2
+  &-9
+    background-color: #FFF4F1
+  &-10
+    background-color:  #FFF9EB
 .bgcompl
   &-1
     background: url(../assets/curso/temas/bg/6.png)
@@ -209,6 +227,11 @@ figcaption
       background-color: $color-acento-contenido
       th
         text-align: left
+    tbody
+      td
+        padding: 0.65em
+  &.min-w table
+    min-width: 600px
 .tarjeta-numerada.color-adicional-1
   border-color: $color-adicional-1
   .tarjeta-numerada__numero
@@ -216,6 +239,8 @@ figcaption
 .l-circle i.fa-circle
   font-size: 6px
   top: 10px !important
+.tabs-a__tab
+  background-color: #9CB4E2
 .tabs-c.color-acento-botones 
   .tabs-c__tab--active
     font-weight: bold
@@ -229,7 +254,27 @@ figcaption
     border-color: $color-acento-botones
 .pasos-a .text-end
   text-align: left !important
-
+.acordion
+  &__activo
+    background-color: #FFF4F1
+  &__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+.linea-tiempo-d
+  &__item--selected .linea-tiempo-d__item__content
+    background-color: #FFF4F1
+    border-radius: 5px
+  &__item--selected .linea-tiempo-d__item__content__title
+    background-color: #FFF4F1
+    border-radius: 5px
+  &__item__number
+    background-color: #68C882
+  &__item__content__title
+    background-color: #9CB4E2
+    border-radius: 5px
+.tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  font-style: normal !important
 
 .tarj-esp
   border: 1px solid #B0C0D2
@@ -250,6 +295,9 @@ figcaption
       font-size: 20px
       &.plus
         font-size: 40px
+  &.big
+    @media (max-width: $bp-max-sm)
+      flex-wrap: wrap
 
 
 

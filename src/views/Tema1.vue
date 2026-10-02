@@ -28,7 +28,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-9
               .bg-color-acento-contenido.p-4.mb-3
-                p.mb-0 Los objetivos constituyen la base estratégica de cualquier programa o proyecto. En el contexto del PUEAA, representan los resultados que una organización espera alcanzar mediante la implementación de acciones orientadas al uso eficiente y al ahorro del agua. Los objetivos orientan la toma de decisiones, permiten establecer prioridades y sirven de referencia para evaluar el desempeño del programa (Project Management Institute [PMI], 2021).
+                p.mb-0 Los objetivos constituyen la base estratégica de cualquier programa o proyecto. En el contexto del PUEAA, representan los resultados que una organización espera alcanzar mediante la implementación de acciones orientadas al uso eficiente y al ahorro del agua. Los objetivos orientan la toma de decisiones, permiten establecer prioridades y sirven de referencia para evaluar el desempeño del programa (#[em Project Management Institute] [PMI], 2021).
               p.mb-0 De acuerdo con la Resolución 1257 de 2018, los objetivos deben formularse a partir del diagnóstico del sistema de uso del agua, considerando la oferta hídrica, la demanda, los riesgos identificados y las oportunidades de mejora. Un objetivo bien estructurado facilita la definición de metas, indicadores y planes de acción coherentes.
             .col-lg-3.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/2.png', alt='')
@@ -266,7 +266,356 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2 Construcción de las metas del PUEAA
 
+    p.mb-5 La formulación de una meta debe partir del análisis de la línea base del sistema de uso de agua. Esto implica conocer cuánto agua consume la organización, qué procesos presentan mayores consumos, dónde se producen pérdidas y cuáles son los riesgos asociados al abastecimiento.
 
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Etapas para construcción de una meta
+
+    .row.justify-content-center.mb-5
+      .col-lg-8(data-aos="fade-right")
+        p La construcción de una meta comprende las siguientes etapas:
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-4")
+          .row(titulo="Analizar la línea base")
+            .col-md-11
+              p Se recopila y analiza la información disponible sobre el uso del agua para conocer la situación actual de la organización. Se consideran aspectos como el consumo histórico, balance hídrico, indicadores existentes, pérdidas, procesos de mayor consumo, condiciones de la infraestructura y riesgos asociados al abastecimiento. Esta información permite establecer un punto de referencia para formular las metas del PUEAA.
+          .row(titulo="Identificar oportunidades de mejora")
+            .col-md-11
+              p A partir de los resultados de la línea base, se determinan las acciones que pueden contribuir al uso eficiente y ahorro del agua. Entre ellas se encuentran la reparación de fugas, sustitución de equipos por tecnologías eficientes, reutilización de agua, captación y aprovechamiento de aguas lluvias, optimización de procesos y sensibilización del personal.
+          .row(titulo="Establecer el resultado esperado")
+            .col-md-11
+              p Se define de manera concreta lo que la organización espera alcanzar mediante el programa. El resultado puede estar relacionado con reducir el consumo de agua, disminuir las pérdidas, incrementar el reúso, mejorar la eficiencia de los procesos, reducir costos asociados al consumo o aumentar la cobertura de medición.
+          .row(titulo="Definir el plazo")
+            .col-md-11
+              p Se establece el periodo necesario para alcanzar el resultado esperado. El plazo debe ser claro, realista y coherente con las acciones propuestas. Puede establecerse en meses, años o de acuerdo con la vigencia definida para el PUEAA.
+          .row(titulo="Establecer el indicador")
+            .col-md-11
+              p Se determina uno o varios indicadores que permitan medir de manera objetiva el cumplimiento y avance de la meta. El indicador debe ser verificable y estar relacionado directamente con el resultado esperado. Por ejemplo: porcentaje de reducción del consumo, volumen de agua reutilizada, número de fugas reparadas o porcentaje de procesos con medición.
+          .row(titulo="Definir la meta")
+            .col-md-11
+              p Se formula un resultado cuantificable que permita determinar el nivel de cumplimiento esperado. La meta debe indicar qué se quiere lograr, cuánto se espera alcanzar y en qué plazo. Por ejemplo: reducir en un 10 % el consumo de agua durante un año.
+          .row(titulo="Determinar las acciones")
+            .col-md-11
+              p Se especifican las actividades necesarias para alcanzar la meta, indicando qué se hará, cómo se desarrollará y con qué frecuencia. Las acciones deben responder a las oportunidades de mejora identificadas y ser viables para la organización.
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/temas/t1/12.png', alt='')
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Metas del PUEAA
+
+    p Según el propósito del programa, las metas pueden clasificarse en distintas categorías.
+
+    .row.justify-content-center.mb-5
+      .col-lg-6.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t1/13.png', alt='')
+      .col-lg-6(data-aos="fade-left")       
+        LineaTiempoD.color-acento-botones
+          .row(numero="1" titulo="Metas de reducción")
+            .col-12
+              p.mb-0 Buscan disminuir el consumo de agua o las pérdidas del sistema. 
+              p.mb-0 #[b Ejemplo:] reducir en un 15 % el consumo de agua potable durante los próximos dos años.
+          .row(numero="2" titulo="Metas de eficiencia")
+            .col-md-12
+              p.mb-0  Relacionan el consumo con la producción o con el servicio prestado. 
+              p.mb-0 #[b Ejemplo:] disminuir el consumo específico de agua de 3,5 m³ a 2,8 m³ por tonelada producida.
+          .row(numero="3" titulo="Metas de cobertura")
+            .col-md-12
+              p.mb-0 Pretenden ampliar la implementación de acciones. 
+              p.mb-0 #[b Ejemplo:] instalar medidores en el 100 % de las áreas de consumo antes de finalizar el año.
+          .row(numero="4" titulo="Metas de gestión")
+            .col-md-12
+              p.mb-0 Se enfocan en fortalecer los procesos administrativos y operativos. 
+              p.mb-0 #[b Ejemplo:] implementar un programa anual de mantenimiento preventivo para toda la red hidráulica.
+          .row(numero="5" titulo="Metas de sensibilización")
+            .col-md-12
+              p.mb-0 Buscan modificar los hábitos de consumo. 
+              p.mb-0 #[b Ejemplo:] capacitar al 100 % de los trabajadores en el uso eficiente del agua durante el primer semestre.
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Estructura gramatical de una meta
+
+    p Una meta debe redactarse de manera clara, precisa y verificable. Generalmente responde a la siguiente estructura:
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade")
+      .col-lg-12
+        .tarj-esp.text-center.big.p-2
+          span Verbo en infinitivo 
+          span.plus +
+          span Resultado esperado
+          span.plus +
+          span Cantidad 
+          span.plus +
+          span  Plazo 
+          span.plus +
+          span Unidad de medida
+
+    p.mb-5 #[b Ejemplo:] reducir el consumo de agua potable en un 12 % durante los próximos 12 meses.
+    
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Elementos que debe contener una meta
+
+    .row.justify-content-center.mb-5
+      .col-lg-6(data-aos="fade-right")        
+        LineaTiempoD.color-acento-botones
+          .row(numero="1" titulo="Verbo")
+            .col-12
+              p.mb-0 Indica la acción que se desea realizar. 
+              p.mb-0 #[b Ejemplo:] reducir. 
+          .row(numero="2" titulo="¿Qué?")
+            .col-12
+              p.mb-0 Especifica el aspecto que se busca mejorar. 
+              p.mb-0 #[b Ejemplo:] el consumo de agua. 
+          .row(numero="3" titulo="¿Cuánto?")
+            .col-12
+              p.mb-0 Establece el resultado cuantificable que se espera alcanzar.
+              p.mb-0 #[b Ejemplo:] 12 %. 
+          .row(numero="4" titulo="¿Cuándo?")
+            .col-12
+              p.mb-0 Determina el plazo para cumplir la meta. 
+              p.mb-0 #[b Ejemplo:] en doce meses. 
+          .row(numero="5" titulo="Unidad de medida")
+            .col-12
+              p.mb-0 Señala cómo se expresará el resultado.
+              p.mb-0 #[b Ejemplo:] porcentaje (%). 
+          .row(numero="6" titulo="Ejemplo de meta completa")
+            .col-12
+              p.mb-0 Reducir en un 12 % el consumo de agua en un periodo de doce meses.
+      .col-lg-6.d-none.d-lg-block(data-aos="fade-left")       
+        img(src='@/assets/curso/temas/t1/14.png', alt='')
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Características de una buena meta
+
+    p Las metas deben cumplir características similares al enfoque SMART:
+    
+    SlyderF.mb-5(columnas="col-md-6 col-xl-4" data-aos="fade")
+      .tarjeta.bg-fondo-1.p-4
+        .row.justify-content-center.mb-3
+          .col-4.col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t1/tarj1-1.svg' alt='')
+        h4.text-center Específica
+        p.text-center.mb-0 Define con claridad lo que se pretende lograr.
+      .tarjeta.bg-fondo-1.p-4
+        .row.justify-content-center.mb-3
+          .col-4.col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t1/tarj1-2.svg' alt='')
+        h4.text-center Medible
+        p.text-center.mb-0 Puede cuantificarse mediante indicadores.
+      .tarjeta.bg-fondo-1.p-4
+        .row.justify-content-center.mb-3
+          .col-4.col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t1/tarj1-3.svg' alt='')
+        h4.text-center Alcanzable
+        p.text-center.mb-0 Es viable con los recursos disponibles.
+      .tarjeta.bg-fondo-1.p-4
+        .row.justify-content-center.mb-3
+          .col-4.col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t1/tarj1-4.svg' alt='')
+        h4.text-center Relevante
+        p.text-center.mb-0 Contribuye al cumplimiento del objetivo del PUEAA.
+      .tarjeta.bg-fondo-1.p-4
+        .row.justify-content-center.mb-3
+          .col-4.col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t1/tarj1-5.svg' alt='')
+        h4.text-center Temporal
+        p.text-center.mb-0 Establece un plazo para su cumplimiento.
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Ejemplos de metas correctamente formuladas
+
+    .bg-fondo-2.tarjeta.p-4.mb-5(data-aos='fade')
+      .row.justify-content-around.align-items-center
+        .col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/15.svg' alt='')
+        .col-lg-7
+          ul.lista-ul--color.color-primario.fa-lista.mb-0
+            li
+              i.fas.fa-tint
+              span.mb-0 Reducir en un 10 % el consumo de agua potable durante el próximo año mediante la reparación de fugas.
+            li
+              i.fas.fa-tint
+              span.mb-0 Disminuir en un 20 % las pérdidas de agua en la red interna antes de diciembre de 2027.
+            li
+              i.fas.fa-tint
+              span.mb-0 Incrementar el reúso de aguas tratadas hasta alcanzar el 30 % del consumo total en dos años.
+            li
+              i.fas.fa-tint
+              span.mb-0 Instalar sistemas de medición en todas las áreas de producción durante el primer semestre.
+            li.mb-0
+              i.fas.fa-tint
+              span.mb-0 Capacitar al 100 % del personal operativo en el uso eficiente del agua antes de finalizar el año.
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Medición de las metas mediante indicadores
+
+    .row.justify-content-center.mb-4
+      .col-lg-3(data-aos="fade-right")
+        img.w-80x.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t1/16.svg' alt='')
+        p Una meta únicamente puede evaluarse si cuenta con indicadores que permitan medir su grado de cumplimiento. Los indicadores son herramientas que transforman la información en datos objetivos para apoyar la toma de decisiones (MADS, 2018).
+      .col-lg-9(data-aos="fade-left")
+        .bg-color-7
+          .row.justify-content-center
+            .col-lg-6.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/17.svg' alt='')
+            .col-lg-6.d-flex.justify-content-center.flex-column
+              .p-4
+                .bg-color-4.p-3.py-2.mb-4
+                  h4.mb-0 Los indicadores responden preguntas como:
+                ul.lista-ul--color.color-primario.fa-lista.mb-0
+                  li.mb-1
+                    i.fas.fa-tint
+                    span.mb-0 ¿Se logró la meta?
+                  li.mb-1
+                    i.fas.fa-tint
+                    span.mb-0 ¿Cuánto se avanzó?
+                  li.mb-1
+                    i.fas.fa-tint
+                    span.mb-0 ¿Qué procesos mejoraron?
+                  li.mb-1
+                    i.fas.fa-tint
+                    span.mb-0 ¿Qué acciones requieren fortalecerse?
+
+    .row.justify-content-center.align-items-end.mb-4
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 2.
+          span Ejemplos de indicadores asociados a metas
+        .tabla-a.color-primario
+          table
+            thead
+              tr
+                th Meta
+                th Indicador
+            tbody
+              tr
+                td.fw-bold Reducir el consumo
+                td m³ consumidos por mes.
+              tr
+                td.fw-bold Disminuir pérdidas
+                td % de pérdidas de agua.
+              tr
+                td.fw-bold Incrementar el reúso
+                td % de agua reutilizada.
+              tr
+                td.fw-bold Instalar medidores
+                td % de cobertura de medición.
+              tr
+                td.fw-bold Capacitar al personal
+                td % de trabajadores capacitados.
+      .col-lg-5(data-aos="fade-left")
+        .bg-color-8.tarjeta.p-4
+          h4 Ejemplo práctico
+          ul.lista-ul--color.color-primario.fa-lista.mb-0
+            li
+              i.fas.fa-tint
+              span.mb-0 #[b Meta:] reducir en un 15 % el consumo de agua potable durante los próximos 12 meses. 
+            li
+              i.fas.fa-tint
+              span.mb-0 #[b Indicador:] porcentaje de reducción del consumo de agua potable. 
+            li
+              i.fas.fa-tint
+              span.mb-0 #[b Línea base:] 10.000 m³/año. 
+            li.mb-0
+              i.fas.fa-tint
+              span.mb-0 #[b Meta cuantificada:] alcanzar un consumo máximo de 8.500 m³/año. 
+
+    .bg-color-9.tarjeta.p-4.mb-5(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/18.svg' alt='')
+        .col-lg-5.mb-4.mb-lg-0
+          h4.mb-1 Fórmula del indicador:
+          p.fw-bold.mb-0 Porcentaje de reducción =[(Consumo de la línea base - Consumo actual) / Consumo de la línea base] x 100 
+        .col-lg-1.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/19.svg' alt='')
+        .col-lg-5
+          h4.mb-1 Resultado esperado:
+          p.mb-0 Reducir el consumo de agua potable en #[b 1.500 m³/año], pasando de 10.000 m³/año a 8.500 m³/año, lo que representa una #[b reducción del 15 %]. 
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Recomendaciones para formular metas del PUEAA
+
+    .bg-color-10.p-4.mb-4(data-aos="fade")
+      .row.justify-content-around.align-items-center
+        .col-lg-3
+          p Para garantizar que las metas sean útiles durante la implementación del programa, se recomienda:
+        .col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/20.svg' alt='')
+        .col-lg-5
+          ul.lista-ul--color.color-primario.fa-lista.mb-0
+            li.mb-1
+              i.fas.fa-tint
+              span.mb-0 Basarlas en información confiable de la línea base.
+            li.mb-1
+              i.fas.fa-tint
+              span.mb-0 Formularlas utilizando verbos en infinitivo.
+            li.mb-1
+              i.fas.fa-tint
+              span.mb-0 Definir valores cuantificables.
+            li.mb-1
+              i.fas.fa-tint
+              span.mb-0 Establecer plazos de cumplimiento.
+            li.mb-1
+              i.fas.fa-tint
+              span.mb-0 Asociarlas a indicadores de seguimiento.
+            li.mb-1
+              i.fas.fa-tint
+              span.mb-0 Asignar responsables para su ejecución.
+            li.mb-0
+              i.fas.fa-tint
+              span.mb-0 Revisarlas periódicamente y ajustarlas cuando sea necesario.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+        p La diferencia principal entre un objetivo y una meta es la siguiente:
+        .bg-color-7.tarjeta.p-4
+          ul.lista-ul--color.color-primario.fa-lista.mb-0
+            li
+              i.fas.fa-tint
+              span.mb-0 El objetivo expresa de manera general lo que se pretende lograr.
+            li.mb-0
+              i.fas.fa-tint
+              span.mb-0 La meta expresa cuánto, en qué plazo y cómo se medirá ese logro.
+      .col-lg-8(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 3.
+          span Diferencia entre objetivo y meta
+        .tabla-a.color-primario
+          table
+            thead
+              tr
+                th Objetivo
+                th Meta
+            tbody
+              tr
+                td Describe el propósito general.
+                td Describe el resultado cuantificable que se espera alcanzar.
+              tr
+                td Es amplio.
+                td Es específica.
+              tr
+                td No necesariamente tiene un valor numérico.
+                td Siempre incorpora un valor o un criterio medible.
+              tr
+                td Orienta el programa.
+                td Permite evaluar el cumplimiento del programa.
+              tr
+                td Se logra mediante varias metas.
+                td Contribuye al cumplimiento de un objetivo.
+
+    .tarjeta.bg-color-6.p-4(data-aos='fade-down')
+      .titulo-sexto.color-secundario
+        h5 Figura 2. 
+        span De objetivos a metas: ejemplo de un PUEAA
+      figure
+        img(src='@/assets/curso/temas/t1/fig2.png', alt='Infografía que presenta un ejemplo de PUEAA en el que un objetivo de optimización del uso del agua se relaciona con cinco metas medibles: reducir el consumo, disminuir pérdidas en la red, aumentar el reúso de agua tratada, instalar equipos de medición y capacitar al personal.')
 
 
     Separador
@@ -641,12 +990,644 @@
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.4 Soluciones para el uso eficiente y ahorro del agua
 
+    .row.justify-content-center.mb-4(data-aos="fade")
+      .col-lg-4
+        p Las soluciones para el uso eficiente y el ahorro de agua son el conjunto de acciones técnicas, administrativas, operativas, educativas y ambientales que buscan optimizar el aprovechamiento del recurso hídrico, disminuir los desperdicios y mejorar la eficiencia en su uso. Estas soluciones pueden implementarse en cualquiera de las etapas del sistema, desde la captación hasta el uso final, y deben contribuir al cumplimiento de los objetivos y metas del PUEAA.
+      .col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/t1/25.png', alt='')
+      .col-lg-4
+        p Entre sus principales propósitos se encuentran:
+        ul.lista-ul--color.color-primario.fa-lista.mb-0
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Reducir el consumo de agua.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Disminuir las pérdidas físicas y operativas.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Mejorar la eficiencia de los procesos.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Incrementar el reúso del agua.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Fortalecer la cultura del ahorro.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Disminuir los costos asociados al consumo.
+          li.mb-0
+            i.fas.fa-tint
+            span.mb-0 Garantizar la sostenibilidad del recurso hídrico.
+   
+    .mb-5(data-aos="fade-down")
+      img(src='@/assets/curso/temas/t1/podcast.svg', alt='')
+      .bg-color-primario.p-4
+        .tarjeta.bg-white.p-4
+          .row.justify-content-around
+            .col-lg-6
+              p Explore el podcast Criterios para seleccionar soluciones y conozca los aspectos fundamentales para identificar alternativas viables, eficientes y sostenibles orientadas al uso eficiente y ahorro del agua.
+              TarjetaAudio.color-acento-botones.mb-4(
+                texto="Criterios para seleccionar soluciones"
+                :audio="require_src('@/assets/actividad/audio/success.mp3')"
+                @audio-hover="mostrarIndicadorTarjetaAudio = false"
+              )
+                .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              p No todas las soluciones son aplicables a cualquier organización. La selección debe realizarse considerando aspectos técnicos, económicos, ambientales y operativos. 
+            .col-lg-5
+              p Los principales criterios son:
+              ul.lista-ul.fa-lista.l-circle.mb-0
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Consumo actual de agua.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Magnitud de las pérdidas.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Riesgos asociados al abastecimiento.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Disponibilidad presupuestal.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Facilidad de implementación.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Tiempo de recuperación de la inversión.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Beneficios ambientales esperados.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Cumplimiento de la normatividad.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Compatibilidad con la infraestructura existente.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Facilidad de operación y mantenimiento.
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Medidas de manejo
+
+    p Las medidas de manejo constituyen el conjunto de acciones implementadas para prevenir, controlar o reducir los impactos derivados del uso del agua. En el PUEAA se clasifican en medidas de prevención, mitigación, corrección y compensación.
+
+    .row.justify-content-center.mb-5
+      .col-lg-8(data-aos="fade-right")
+        p La construcción de una meta comprende las siguientes etapas:
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-4")
+          .row(titulo="Medidas de prevención")
+            .col-md-11.col-lg-6
+              p.fw-bold.mb-1 Ejemplos:
+              ul.lista-ul.fa-lista.l-circle.mb-0
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Diseño eficiente de redes hidráulicas.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Instalación de equipos ahorradores.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Programas de mantenimiento preventivo.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Detección temprana de fugas.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Micromedición de consumos.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Capacitación permanente al personal.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Inspecciones periódicas.
+            .col-md-11.col-lg-6
+              p.fw-bold.mb-1 Ventajas:
+              ul.lista-ul.fa-lista.l-circle.mb-0
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Reducen costos de operación.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Disminuyen el desperdicio de agua.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Incrementan la vida útil de la infraestructura.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Facilitan el cumplimiento de las metas del PUEAA.
+          .row(titulo="Medidas de mitigación")
+            .col-md-11
+              p Buscan disminuir la magnitud o los efectos de un problema cuando no puede evitarse por completo.
+            .col-md-11.col-lg-6
+              p.fw-bold.mb-1 Ejemplos:
+              ul.lista-ul.fa-lista.l-circle.mb-0
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Reúso de aguas tratadas.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Sistemas de recirculación.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Control automático de presión.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Sectorización hidráulica.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Almacenamiento de agua para contingencias.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Aprovechamiento de aguas lluvias.
+            .col-md-11.col-lg-6
+              p Estas medidas permiten reducir el consumo de agua potable y mejorar la resiliencia del sistema frente a periodos de escasez.
+          .row(titulo="Medidas de corrección")
+            .col-md-11
+              p Se aplican cuando el problema ya existe y es necesario restablecer el funcionamiento normal del sistema.
+            .col-md-11.col-lg-6
+              p.fw-bold.mb-1 Ejemplos:
+              ul.lista-ul.fa-lista.l-circle.mb-0
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Reparación de fugas.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Sustitución de tuberías deterioradas.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Cambio de válvulas defectuosas.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Calibración de medidores.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Modernización de equipos de alto consumo. 
+            .col-md-11.col-lg-6
+              p Estas acciones permiten recuperar la eficiencia del sistema y reducir las pérdidas que afectan el cumplimiento de las metas del programa.
+          .row(titulo="Medidas de compensación")
+            .col-md-11 
+              p Buscan generar beneficios ambientales que contribuyan a equilibrar los impactos ocasionados por el uso del recurso hídrico.
+            .col-md-11.col-lg-7
+              p.fw-bold.mb-1 Ejemplos:
+              ul.lista-ul.fa-lista.l-circle.mb-0
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Restauración de rondas hídricas.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Protección de nacimientos de agua.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Reforestación de áreas de recarga.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Programas de educación ambiental comunitaria.
+                li.mb-0
+                  i.fas.fa-circle
+                  span.mb-0 Participación en esquemas de pago por servicios ambientales.
+            .col-md-11.col-lg-5
+              p Aunque no reducen directamente el consumo de agua, fortalecen la sostenibilidad del recurso a largo plazo.
+            .col-md-11.mt-4
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 4.
+                span Comparación de las medidas de manejo
+              .tabla-a.color-primario.min-w
+                table.bg-white
+                  thead
+                    tr
+                      th.w-25 Tipo de medida
+                      th Objetivo
+                      th Ejemplos
+                  tbody
+                    tr
+                      td.fw-bold Prevención
+                      td Evitar la ocurrencia de problemas.
+                      td Mantenimiento preventivo, micromedición, inspecciones.
+                    tr
+                      td.fw-bold Mitigación
+                      td Reducir los efectos de un problema.
+                      td reúso, recirculación, almacenamiento.
+                    tr
+                      td.fw-bold Corrección
+                      td Solucionar problemas existentes.
+                      td Reparación de fugas, cambio de tuberías.
+                    tr
+                      td.fw-bold Compensación
+                      td Generar beneficios ambientales.
+                      td Reforestación, restauración de cuencas.
+      .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/temas/t1/26.png', alt='')
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Controles en la fuente, el medio y el receptor
+
+    p Las soluciones también pueden clasificarse según el punto del sistema en el que se implementan.
+
+    .tarjeta--container.row.justify-content-center.mb-5(data-aos="fade")
+      .col-lg.col-md-6.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-5.col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t1/tarj2-1.svg', alt='')
+        h4.text-center Controles en la fuente
+        p.text-center Se aplican directamente a la fuente de abastecimiento para garantizar la disponibilidad y la calidad del agua.
+        p.fw-bold Ejemplos: 
+        ul.lista-ul.fa-lista.l-circle.mb-0
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Protección de la cuenca abastecedora.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Monitoreo del caudal.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Control de captaciones.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Optimización de bocatomas.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Cumplimiento de la concesión de aguas.        
+      .col-lg.col-md-6.tarjeta.color-secundario.p-5
+        .row.justify-content-center.mb-4
+          .col-5.col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t1/tarj2-2.svg', alt='')
+        h4.text-center Controles en el medio
+        p.text-center Se implementan durante la conducción, el almacenamiento y la distribución del agua.
+        p.fw-bold Ejemplos: 
+        ul.lista-ul.fa-lista.l-circle.mb-0
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Sectorización de redes.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0  Control de presiones.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Detección de fugas.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Automatización de válvulas.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Mantenimiento de tanques.
+      .col-lg.col-md-6.tarjeta.color-acento-contenido.p-5
+        .row.justify-content-center.mb-2
+          .col-5.col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t1/tarj2-3.svg', alt='')
+        h4.text-center Controles en el receptor: 
+        p.text-center Corresponden a las acciones implementadas en el lugar donde se utiliza el agua.
+        p.fw-bold Ejemplos: 
+        ul.lista-ul.fa-lista.l-circle.mb-0
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Sanitarios de doble descarga.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Griferías ahorradoras.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Sensores de cierre automático.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Equipos de lavado de alta eficiencia.
+          li.mb-0
+            i.fas.fa-circle
+            span.mb-0 Buenas prácticas operativas.
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Estrategias educativas
+    
+    .row.justify-content-center.mb-5(data-aos="fade")
+      .col-lg-4
+        p La educación ambiental es uno de los pilares del PUEAA, ya que las tecnologías por sí solas no garantizan un uso eficiente del agua. Es indispensable promover cambios de comportamiento y fortalecer la cultura del ahorro en todos los niveles de la organización (UNESCO, 2020).
+        p Las estrategias educativas buscan sensibilizar a los usuarios sobre la importancia del recurso hídrico y fomentar prácticas responsables en su uso cotidiano.
+      .col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/t1/27.svg', alt='')
+      .col-lg-4
+        p Principales estrategias:
+        ul.lista-ul--color.color-primario.fa-lista.mb-0
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Campañas de sensibilización.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Jornadas de capacitación.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Talleres prácticos.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Señalización de puntos de consumo.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Difusión de indicadores de consumo.
+          li.mb-1
+            i.fas.fa-tint
+            span.mb-0 Programas de reconocimiento de buenas prácticas.
+          li.mb-0
+            i.fas.fa-tint
+            span.mb-0 Material educativo impreso y digital.
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Medidas de intervención estructurales y no estructurales
+
+    p Para promover el uso eficiente y el ahorro del agua, se pueden implementar medidas de intervención estructurales y no estructurales. Las primeras están orientadas a realizar modificaciones físicas o técnicas en la infraestructura, mientras que las segundas se enfocan en acciones de gestión, capacitación, seguimiento y mantenimiento. Ambas contribuyen a optimizar el consumo del recurso y prevenir su desperdicio.
+
+    img.mb-4.d-none.d-lg-block(src='@/assets/curso/temas/t1/28.png', alt='')
+
+    .tarjeta.bg-color-6.p-4(data-aos='fade-down')
+      .titulo-sexto.color-secundario
+        h5 Figura 3. 
+        span Medidas de intervención
+      figure
+        img(src='@/assets/curso/temas/t1/fig3.svg', alt='Presenta dos categorías: medidas estructurales, como construcción de tanques, cambio de redes hidráulicas, instalación de equipos ahorradores, captación de aguas lluvias y sistemas de reúso; y medidas no estructurales, como capacitación, actualización de procedimientos, mantenimiento, inspecciones, auditorías e implementación de indicadores. Rediseña la figura ')
 
 
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.5 Tecnologías para el uso eficiente y el ahorro del agua
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5.d-none.d-lg-block
+        img(src='@/assets/curso/temas/t1/29.png', alt='')
+      .col-lg-7
+        img.w-80x.mb-3.d-none.d-lg-block(src='@/assets/curso/temas/t1/30.svg', alt='')
+        p La selección de tecnologías no debe basarse únicamente en el costo de adquisición. Es indispensable analizar aspectos como la eficiencia hidráulica, la facilidad de operación, los costos de mantenimiento, la disponibilidad de repuestos, la compatibilidad con la infraestructura existente y los beneficios ambientales esperados. Asimismo, la vigilancia tecnológica y el análisis de fichas técnicas constituyen herramientas que permiten identificar alternativas innovadoras y comparar objetivamente distintas opciones antes de realizar una inversión (FAO, 2021).
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 ¿Qué son las tecnologías para el uso eficiente y el ahorro de agua?
+
+    p.mb-5 Las tecnologías para el uso eficiente y el ahorro de agua son el conjunto de equipos, dispositivos, sistemas, procesos e innovaciones diseñados para optimizar el aprovechamiento del recurso hídrico, reducir pérdidas, mejorar la eficiencia operacional y disminuir el consumo sin afectar la calidad de los procesos o los servicios. Estas tecnologías pueden implementarse en diferentes etapas del sistema de uso del agua, desde la captación y la conducción hasta el consumo final, el tratamiento y el reúso. Su incorporación al PUEAA debe responder a las necesidades identificadas durante el diagnóstico y contribuir al cumplimiento de las metas e indicadores definidos en el programa.
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Clasificación de las tecnologías
+    
+    p Las tecnologías para el uso eficiente del agua pueden clasificarse según su función en el sistema.
+
+    .tarjeta.bg-color-6.p-4.mb-4(data-aos='fade-down')
+      .titulo-sexto.color-secundario
+        h5 Figura 4. 
+        span Tecnologías para el ahorro y uso eficiente del agua
+      figure
+        img(src='@/assets/curso/temas/t1/fig4.jpg', alt='Infografía que presenta tecnologías para el ahorro y uso eficiente del agua en cinco ámbitos: abastecimiento, almacenamiento, distribución, consumo eficiente y tratamiento y reúso, con ejemplos y aplicaciones.')
+
+    .tarjeta.bg-color-6.p-4.mb-5(data-aos='fade-down')
+      .titulo-sexto.color-secundario
+        h5 Figura 5. 
+        span Clasificación de tecnologías según nivel de complejidad 
+      figure
+        img(src='@/assets/curso/temas/t1/fig5.svg', alt='Infografía que clasifica las tecnologías para el uso eficiente del agua en convencionales, intermedias y avanzadas, según su complejidad, inversión y capacidad técnica, e incluye ejemplos, ventajas y aplicaciones.')
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Características de las tecnologías
+    
+    p Antes de seleccionar una tecnología, es necesario analizar diversas características técnicas. Entre las principales se encuentran: 
+
+    .row.justify-content-center.mb-5
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-5.tarjeta.p-4.h-100
+          .row.justify-content-center.align-items-center
+            .col-lg-6
+              ul.lista-ul--color.color-primario.fa-lista.mb-0
+                li.mb-1
+                  i.fas.fa-tint
+                  span.mb-0 Eficiencia hidráulica.
+                li.mb-1
+                  i.fas.fa-tint
+                  span.mb-0 Capacidad de operación.
+                li.mb-1
+                  i.fas.fa-tint
+                  span.mb-0 Vida útil.
+                li.mb-1
+                  i.fas.fa-tint
+                  span.mb-0 Consumo energético.
+                li.mb-1
+                  i.fas.fa-tint
+                  span.mb-0 Compatibilidad con el sistema existente.
+                li.mb-1
+                  i.fas.fa-tint
+                  span.mb-0 Facilidad de mantenimiento.
+                li.mb-1
+                  i.fas.fa-tint
+                  span.mb-0 Disponibilidad de repuestos.
+                li.mb-1
+                  i.fas.fa-tint
+                  span.mb-0 Garantía del fabricante.
+                li.mb-1
+                  i.fas.fa-tint
+                  span.mb-0 Cumplimiento de normas técnicas.
+            .col-lg-6.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/31.svg', alt='')
+      .col-lg-6(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 5.
+          span Características para evaluar una tecnología
+        .tabla-a.color-primario.min-w
+          table
+            thead
+              tr
+                th.w-25 Criterio
+                th Aspecto para evaluar
+            tbody
+              tr
+                td.fw-bold Eficiencia
+                td Reducción del consumo de agua.
+              tr
+                td.fw-bold Durabilidad
+                td Vida útil esperada.
+              tr
+                td.fw-bold Operación
+                td Facilidad de uso.
+              tr
+                td.fw-bold Mantenimiento
+                td Frecuencia y costo.
+              tr
+                td.fw-bold Compatibilidad
+                td Integración con el sistema existente.
+              tr
+                td.fw-bold Seguridad
+                td Riesgos asociados.
+              tr
+                td.fw-bold Costo
+                td Inversión y operación.
+    
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Vigilancia tecnológica
+    
+    .row.justify-content-center.mb-4
+      .col-lg-6.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t1/32.png', alt='')
+      .col-lg-6(data-aos="fade-left")
+        p La vigilancia tecnológica es un proceso sistemático de búsqueda, recopilación, análisis y uso de información sobre nuevas tecnologías, equipos y tendencias que pueden mejorar la eficiencia en el uso del agua. Su propósito es apoyar la toma de decisiones y promover la innovación dentro del PUEAA (UNE 166006:2018; OECD, 2021).
+        p Este proceso permite identificar oportunidades de mejora, comparar soluciones disponibles en el mercado y anticipar cambios tecnológicos que favorezcan la sostenibilidad del sistema.
+    
+    .row.justify-content-center.mb-5(data-aos="fade")
+      .col-lg-10
+        .tarjeta--container.row
+          .col-md.tarjeta.color-primario.p-5
+            .row.justify-content-center.mb-4
+              .col-5.col-md-6.col-lg-4
+                img(src='@/assets/curso/temas/t1/tarj3-1.svg', alt='')          
+            h4.text-center Etapas de la vigilancia tecnológica
+            ul.lista-ul.fa-lista.l-circle.mb-0
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Identificación de necesidades.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Búsqueda de información.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Selección de fuentes confiables.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Análisis comparativo.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Evaluación técnica y económica.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Toma de decisiones.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Actualización continua.
+          .col-md.tarjeta.color-acento-contenido.p-5
+            .row.justify-content-center.mb-4
+              .col-5.col-md-6.col-lg-4
+                img(src='@/assets/curso/temas/t1/tarj3-2.svg', alt='')          
+            h4.text-center Fuentes de información
+            ul.lista-ul.fa-lista.l-circle.mb-0
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Fabricantes.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Catálogos técnicos.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Revistas científicas.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Patentes.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Universidades.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Organismos de normalización.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Portales especializados.
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Análisis de fichas técnicas
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos='fade')
+      .col-lg-6
+        p Las fichas técnicas contienen las especificaciones del fabricante y constituyen uno de los principales insumos para seleccionar una tecnología. 
+        p Antes de adquirir un equipo es recomendable analizar:
+        .row.justify-content-center
+          .col-lg-6.col-md-6
+            ul.lista-ul.fa-lista.l-circle.mb-0
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Descripción del producto.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Principio de funcionamiento.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Caudal nominal. 
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Presión de operación.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Materiales de fabricación.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Vida útil.
+          .col-lg-6.col-md-6
+            ul.lista-ul.fa-lista.l-circle.mb-0
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Consumo energético.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Requerimientos de instalación.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Mantenimiento.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Garantía.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Certificaciones técnicas.
+              li.mb-0
+                i.fas.fa-circle
+                span.mb-0 Restricciones de uso.
+      .col-lg-3.d-none.d-lg-block
+        img(src='@/assets/curso/temas/t1/33.png', alt='')
+      .col-lg-3
+        p.fw-bold Ejemplo:
+        p.mb-0 #[b Equipo:] aireador para grifería.
+        p.mb-0 #[b Caudal convencional:] 12 L/min.
+        p.mb-0 #[b Caudal con aireador:] 5 L/min.
+        p.mb-0 #[b Ahorro estimado:] 58 %.
+        p.mb-0 #[b Vida útil:] 8 años.
+        p #[b Mantenimiento:] limpieza semestral.
+
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.mx-3 Costos y presupuesto
+
+    p.mb-4 Toda solución propuesta en el PUEAA debe evaluarse desde el punto de vista económico para garantizar su viabilidad y sostenibilidad. La estimación de costos permite priorizar las inversiones y planificar los recursos necesarios para la implementación del programa.
+
+    .subt2.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt2.svg', alt='')
+      h4.mb-0.mx-3 Los costos pueden clasificarse en:
+
+    .row.justify-content-center.mb-4
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t1/34.png', alt='')
+      .col-lg-9(data-aos="fade-left")
+        TabsA.color-acento-botones
+          .tarjeta.bg-color-9.p-4(titulo="Inversión inicial")
+            h4 Inversión inicial
+            p Adquisición de equipos, construcción de infraestructura e instalación.
+          .tarjeta.bg-color-9.p-4(titulo="Operación")
+            h4 Operación
+            p Consumo de energía, de insumos y de personal.
+          .tarjeta.bg-color-9.p-4(titulo="Mantenimiento")
+            h4 Mantenimiento
+            p Reparaciones, calibraciones y reposición de componentes.
+          .tarjeta.bg-color-9.p-4(titulo="Capacitación")
+            h4 Capacitación
+            p Formación y sensibilización del personal.
+          .tarjeta.bg-color-9.p-4(titulo="Monitoreo y seguimiento")
+            h4 Monitoreo y seguimiento
+            p Medición, análisis de indicadores y auditorías.
+
+    p.mb-4 La incorporación de tecnologías en el PUEAA requiere una evaluación económica que permita determinar la viabilidad de la inversión. Los costos deben clasificarse en:
+
+    .tarjeta.bg-color-6.p-4(data-aos='fade-down')
+      .titulo-sexto.color-secundario
+        h5 Figura 6. 
+        span Tipos de costos
+      figure.px-lg-5
+        img(src='@/assets/curso/temas/t1/fig6.png', alt='Presenta cuatro categorías relacionadas con los costos de un sistema eficiente y ahorrador de agua: costos de inversión, que incluyen compra de equipos, transporte, instalación y obras civiles; costos de operación, como energía, insumos y mano de obra; costos de mantenimiento, que abarcan repuestos, calibración, limpieza y reparaciones; y costos de reposición, asociados a la sustitución de equipos y actualización tecnológica. En el centro se destaca el concepto de “Costos para el uso eficiente y ahorro del agua”. La parte inferior señala que una correcta evaluación de todos los costos permite seleccionar una tecnología rentable y sostenible en el tiempo.')
 
 
     Separador
@@ -794,7 +1775,7 @@
         h5 Figura 8. 
         span Tipos de actividades
       figure.px-lg-5
-        img(src='@/assets/curso/temas/t1/fig8.svg', alt='Presenta el Plan de Acción del PUEAA (Programa de Uso Eficiente y Ahorro del Agua), del cual se desprenden seis componentes: actividades, que indican qué se hará mediante acciones concretas y proyectos; responsables, que señalan quién lo hará, como entidades, áreas o personal; cronograma, que establece cuándo se hará, incluyendo plazos, fechas límite y duración; recursos, que especifican con qué se hará, como presupuesto, tecnología y personal; indicadores, que determinan cómo se medirá mediante KPI, métricas y datos; y seguimiento y evaluación, que permiten verificar si se está logrando lo propuesto mediante monitoreo y análisis final. Las flechas conectan los seis componentes con el plan de acción central.')
+        img(src='@/assets/curso/temas/t1/fig8.jpg', alt='Presenta el Plan de Acción del PUEAA (Programa de Uso Eficiente y Ahorro del Agua), del cual se desprenden seis componentes: actividades, que indican qué se hará mediante acciones concretas y proyectos; responsables, que señalan quién lo hará, como entidades, áreas o personal; cronograma, que establece cuándo se hará, incluyendo plazos, fechas límite y duración; recursos, que especifican con qué se hará, como presupuesto, tecnología y personal; indicadores, que determinan cómo se medirá mediante KPI, métricas y datos; y seguimiento y evaluación, que permiten verificar si se está logrando lo propuesto mediante monitoreo y análisis final. Las flechas conectan los seis componentes con el plan de acción central.')
 
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
@@ -1027,7 +2008,7 @@
         h5 Figura 9. 
         span Responsabilidades en la implementación
       figure
-        img(src='@/assets/curso/temas/t1/fig9.svg', alt='Presenta el trabajo colaborativo en la implementación como: alta dirección, coordinador ambiental, area de mantenimiento, personal opertivo y prestador del servicio. ')
+        img(src='@/assets/curso/temas/t1/fig9.png', alt='Presenta el trabajo colaborativo en la implementación como: alta dirección, coordinador ambiental, area de mantenimiento, personal opertivo y prestador del servicio. ')
 
 </template>
 
@@ -1036,6 +2017,7 @@ export default {
   name: 'Tema1',
   data: () => ({
     // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
 }
 </script>
