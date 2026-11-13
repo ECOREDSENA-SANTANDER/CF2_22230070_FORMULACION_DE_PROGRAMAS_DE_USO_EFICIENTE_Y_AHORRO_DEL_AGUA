@@ -1029,7 +1029,7 @@
               p Explore el podcast Criterios para seleccionar soluciones y conozca los aspectos fundamentales para identificar alternativas viables, eficientes y sostenibles orientadas al uso eficiente y ahorro del agua.
               TarjetaAudio.color-acento-botones.mb-4(
                 texto="Criterios para seleccionar soluciones"
-                :audio="require_src('@/assets/actividad/audio/success.mp3')"
+                :audio="require_src('@/assets/curso/temas/t1/Podcast_CF2_22230070.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
