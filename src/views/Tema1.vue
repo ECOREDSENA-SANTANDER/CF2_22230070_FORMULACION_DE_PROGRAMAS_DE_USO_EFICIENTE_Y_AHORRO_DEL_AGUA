@@ -297,6 +297,12 @@
           .row(titulo="Determinar las acciones")
             .col-md-11
               p Se especifican las actividades necesarias para alcanzar la meta, indicando qué se hará, cómo se desarrollará y con qué frecuencia. Las acciones deben responder a las oportunidades de mejora identificadas y ser viables para la organización.
+          .row(titulo="Asignar responsables y recursos")
+            .col-md-11
+              p Se identifican las personas, áreas o equipos responsables de ejecutar y hacer seguimiento a las acciones. También se determinan los recursos humanos, técnicos, materiales y económicos requeridos para su implementación. 
+          .row(titulo="Realizar seguimiento y evaluación ")
+            .col-md-11
+              p Se establece la periodicidad con la que se revisarán los indicadores y resultados para identificar avances, dificultades y desviaciones. El seguimiento permite implementar acciones correctivas y verificar si las metas establecidas están siendo alcanzadas. 
       .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t1/12.png', alt='')
 
@@ -1072,14 +1078,15 @@
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
       h3.mb-0.mx-3 Medidas de manejo
 
-    p Las medidas de manejo constituyen el conjunto de acciones implementadas para prevenir, controlar o reducir los impactos derivados del uso del agua. En el PUEAA se clasifican en medidas de prevención, mitigación, corrección y compensación.
+    p.mb-4 Las medidas de manejo constituyen el conjunto de acciones implementadas para prevenir, controlar o reducir los impactos derivados del uso del agua. En el PUEAA se clasifican en medidas de prevención, mitigación, corrección y compensación. 
 
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right")
-        p La construcción de una meta comprende las siguientes etapas:
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-4")
           .row(titulo="Medidas de prevención")
-            .col-md-11.col-lg-6
+            .col-md-11
+              p Buscan evitar pérdidas de agua o situaciones que afecten la eficiencia del sistema. Se implementan antes de que ocurra un problema y constituyen la alternativa más eficiente desde los puntos de vista económico y ambiental.
+            .col-md-11.col-lg-6              
               p.fw-bold.mb-1 Ejemplos:
               ul.lista-ul.fa-lista.l-circle.mb-0
                 li.mb-0
@@ -1788,7 +1795,7 @@
     .mb-5(data-aos="fade-down")
       .titulo-sexto.color-acento-contenido.mb-3
         h5 Tabla 6.
-        span Matriz del plan de acción en el PUEAA
+        span Ejemplo de estructura de plan de acción
       .tabla-a.color-primario
         table
           thead

@@ -141,6 +141,36 @@ export default {
       significado:
         'Acción destinada a solucionar o reducir un problema identificado en el sistema de uso del agua.',
     },
+    {
+      termino: 'Medida de mitigación ',
+      significado:
+        'Acción orientada a reducir los efectos negativos asociados al consumo o desperdicio de agua. ',
+    },
+    {
+      termino: 'Medida de prevención ',
+      significado:
+        'Acción implementada para evitar pérdidas, problemas o riesgos relacionados con el uso del agua. ',
+    },
+    {
+      termino: 'Plan de acción ',
+      significado:
+        'Instrumento que organiza actividades, responsables, recursos, tiempos e indicadores para ejecutar el PUEAA. ',
+    },
+    {
+      termino: 'Presupuesto ',
+      significado:
+        'Estimación de los recursos económicos necesarios para implementar las acciones del PUEAA. ',
+    },
+    {
+      termino: 'Tecnología para el uso eficiente del agua ',
+      significado:
+        'Equipo, sistema o proceso que permite reducir el consumo y optimizar el aprovechamiento del agua. ',
+    },
+    {
+      termino: 'Vigilancia tecnológica ',
+      significado:
+        'Proceso de búsqueda y análisis de información sobre tecnologías e innovaciones relacionadas con el uso eficiente del agua. ',
+    },
   ],
   referencias: [
     {
@@ -251,7 +281,7 @@ export default {
         },
         {
           nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -261,12 +291,12 @@ export default {
       autores: [
         {
           nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: ' ',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
