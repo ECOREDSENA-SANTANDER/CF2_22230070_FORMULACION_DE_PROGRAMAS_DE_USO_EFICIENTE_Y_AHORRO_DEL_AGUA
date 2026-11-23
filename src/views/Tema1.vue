@@ -1736,7 +1736,7 @@
         h5 Figura 7. 
         span Componentes del plan de acción del PUEAA
       figure.px-lg-5
-        img(src='@/assets/curso/temas/t1/fig7.svg', alt='')
+        img(src='@/assets/curso/temas/t1/fig7.svg', alt='Infografía de los componentes del plan de acción del PUEAA (Programa de Uso Eficiente y Ahorro del Agua), que incluye seis elementos: actividades, responsables, cronograma, recursos, indicadores y seguimiento y evaluación.')
 
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
