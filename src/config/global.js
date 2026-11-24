@@ -91,12 +91,12 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: '/downloads/22230070_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download: '/downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
@@ -200,7 +200,7 @@ export default {
     },
     {
       referencia:
-        "Food and Agriculture Organization of the United Nations. (2021). The state of the world's land and water resources for food and agriculture – Systems at breaking point.",
+        "Food and Agriculture Organization of the United Nations. (2021). The state of the world's land and water resources for food and agriculture - Systems at breaking point.",
       link: '',
     },
     {

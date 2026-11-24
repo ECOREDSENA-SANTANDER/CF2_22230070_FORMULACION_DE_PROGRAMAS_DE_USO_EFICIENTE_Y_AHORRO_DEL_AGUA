@@ -1384,7 +1384,7 @@
         h5 Figura 4. 
         span Tecnologías para el ahorro y uso eficiente del agua
       figure
-        img(src='@/assets/curso/temas/t1/fig4.jpg', alt='Infografía que presenta tecnologías para el ahorro y uso eficiente del agua en cinco ámbitos: abastecimiento, almacenamiento, distribución, consumo eficiente y tratamiento y reúso, con ejemplos y aplicaciones.')
+        img(src='@/assets/curso/temas/t1/fig4.svg', alt='Infografía que presenta tecnologías para el ahorro y uso eficiente del agua en cinco ámbitos: abastecimiento, almacenamiento, distribución, consumo eficiente y tratamiento y reúso, con ejemplos y aplicaciones.')
 
     .tarjeta.bg-color-6.p-4.mb-5(data-aos='fade-down')
       .titulo-sexto.color-secundario
